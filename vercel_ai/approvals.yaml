@@ -8,7 +8,7 @@ policy:
     needsApproval option, which defaults to false when omitted.
 
 rules:
-  - id: VAI-013
+  - id: VAI-018
     title: Privileged tool has no needsApproval gate
     severity: high
     confidence: 0.7
@@ -36,7 +36,7 @@ rules:
       executes attacker-influenced model output with no human checkpoint.
       Passing true or a per-call approval function both count as a gate and do
       not fire. This complements VAI-001 (subprocess) and VAI-002 (eval / new
-      Function): those flag the dangerous call; VAI-013 flags the missing
+      Function): those flag the dangerous call; VAI-018 flags the missing
       approval gate around it. SDK 7 deprecated needsApproval on tool() in
       favor of toolApproval on generateText, streamText, or ToolLoopAgent.
       This tool-scoped rule cannot verify that separate setting, so a finding
