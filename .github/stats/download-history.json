@@ -45,6 +45,17 @@
         "bundles": 311,
         "total": 704
       }
+    },
+    {
+      "date": "2026-09-21",
+      "bundles": 1367,
+      "statements": 7,
+      "other": 0,
+      "total": 1374,
+      "since_baseline": {
+        "bundles": 826,
+        "total": 814
+      }
     }
   ],
   "baseline_date": "2026-09-04"
