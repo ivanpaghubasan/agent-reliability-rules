@@ -128,7 +128,7 @@ rules:
       that names what the tool does, the inputs it expects, and what it returns.
       Write it for the model, not for a human reader.
 
-  - id: ADK-115
+  - id: ADK-018
     title: FunctionTool description is a placeholder
     severity: low
     confidence: 0.85
@@ -163,7 +163,7 @@ rules:
       neighboring tool, and document each parameter so the ADK can carry those
       descriptions into the generated declaration.
 
-  - id: ADK-116
+  - id: ADK-019
     title: FunctionTool description is too short to guide model selection
     severity: low
     confidence: 0.8

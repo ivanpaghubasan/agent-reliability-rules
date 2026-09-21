@@ -33,7 +33,7 @@ rules:
       Resolve the path with `Path(...).resolve()` and assert it sits under an
       allowed root before opening.
 
-  - id: ADK-117
+  - id: ADK-014
     title: TypeScript FunctionTool writes to the filesystem
     severity: low
     confidence: 0.5

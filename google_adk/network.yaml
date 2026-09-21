@@ -52,7 +52,7 @@ rules:
       value that's tight enough to fail fast and loose enough to allow
       legitimate slow responses for this endpoint.
 
-  - id: ADK-114
+  - id: ADK-017
     title: TypeScript FunctionTool HTTP call has no timeout
     severity: high
     confidence: 0.6
