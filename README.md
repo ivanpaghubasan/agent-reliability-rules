@@ -90,12 +90,12 @@ google_adk/                           Google ADK rules (ADK-NNN)
 ├── code_execution.yaml               ADK-011 (python), ADK-015 (typescript)
 ├── error_handling.yaml               ADK-005
 ├── idempotency.yaml                  ADK-006
-├── network.yaml                      ADK-003
-├── path_safety.yaml                  ADK-004
+├── network.yaml                      ADK-003 (python), ADK-017 (typescript)
+├── path_safety.yaml                  ADK-004 (python), ADK-014 (typescript fs-write)
 ├── repo_hygiene.yaml                 ADK-201 (repo scope, CLAUDE.md missing)
 ├── shell_safety.yaml                 ADK-010
 ├── ssrf.yaml                         ADK-012 (python), ADK-016 (typescript)
-└── tool_definition.yaml              ADK-001, ADK-002, ADK-007, ADK-009 (python), ADK-013 (typescript)
+└── tool_definition.yaml              ADK-001, ADK-002, ADK-007, ADK-009, ADK-018, ADK-019 (python), ADK-013 (typescript)
 mcp/                                  Model Context Protocol rules (MCP-NNN)
 ├── code_execution.yaml               MCP-009, MCP-014
 ├── error_handling.yaml               MCP-006
